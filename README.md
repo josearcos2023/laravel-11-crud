@@ -1,7 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 ## Document
-https://www.flexadmin.io/laravel-11-authentication/
+https://www.flexadmin.io/laravel-11-crud/
 
 ## Step by Step:
 After pull source code into your device, navigate to your project directory and run:
@@ -34,17 +34,17 @@ php artisan serve
 
 CRUD List | Edit
 --- | ---
-<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/list-product.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/edit-product.jpg" width="600">
+<img src="https://github.com/flexadminio/laravel-11-crud/blob/master/screenshots/list-product.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-crud/blob/master/screenshots/edit-product.jpg" width="600">
 
 
 Login | Register
 --- | ---
-<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/login.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/register.jpg" width="600">
+<img src="https://github.com/flexadminio/laravel-11-crud/blob/master/screenshots/login.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-crud/blob/master/screenshots/register.jpg" width="600">
 
 
 Dashboard | User Profile
 --- | ---
-<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/dashboard.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/profile.jpg" width="600">
+<img src="https://github.com/flexadminio/laravel-11-crud/blob/master/screenshots/dashboard.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-crud/blob/master/screenshots/profile.jpg" width="600">
 
 
 ## FlexAdmin - Save you a thousand hours of developing source code
