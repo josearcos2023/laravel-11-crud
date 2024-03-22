@@ -32,6 +32,11 @@ php artisan serve
 ## Screenshot:
 
 
+CRUD List | Edit
+--- | ---
+<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/list-product.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/edit-product.jpg" width="600">
+
+
 Login | Register
 --- | ---
 <img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/login.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/register.jpg" width="600">
@@ -42,7 +47,7 @@ Dashboard | User Profile
 <img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/dashboard.jpg" width="600">|<img src="https://github.com/flexadminio/laravel-11-authentication/blob/master/screenshots/profile.jpg" width="600">
 
 
-## FlexAdmin
+## FlexAdmin - Save you a thousand hours of developing source code
 
 
 ### FlexAdmin Free Download
