@@ -9,7 +9,7 @@
     <div class="max-w-7xl mx-auto space-y-6">
       <div class="sm:p-8">
         <a class="inline-flex items-center px-4 py-2 bg-blue-800 dark:bg-blue-200 border border-transparent rounded-md font-semibold text-xs text-white dark:text-blue-800 uppercase tracking-widest hover:bg-blue-700 dark:hover:bg-white focus:bg-blue-700 dark:focus:bg-white active:bg-blue-900 dark:active:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-blue-800 transition ease-in-out duration-150"
-          href="{{ route('posts.create') }}"> Create Post</a>
+          href="{{ route('agenda.create') }}"> Nuevo número</a>
       </div>
     </div>
   </div>
@@ -31,19 +31,21 @@
         <table class="table-auto w-full">
           <tr>
             <th class="border py-2">ID</th>
-            <th class="border">Title</th>
-            <th class="border">Description</th>
+            <th class="border">Nombre</th>
+            <th class="border">Apellido</th>
+            <th class="border">Telefono</th>
             <th class="border" width="280px">Action</th>
           </tr>
-          @foreach ($posts as $nts)
+          @foreach ($agenda as $nts)
             <tr>
               <td class="border text-center">{{ $nts->id }}</td>
-              <td class="border p-2">{{ $nts->title }}</td>
-              <td class="border p-2">{{ $nts->description }}</td>
+              <td class="border p-2">{{ $nts->nombre }}</td>
+              <td class="border p-2">{{ $nts->apellido }}</td>
+              <td class="border p-2">{{ $nts->telefono }}</td>
               <td class="border p-2 text-center">
-                <form action="{{ route('posts.destroy', $nts->id) }}" method="Post">
+                <form action="{{ route('agenda.destroy', $nts->id) }}" method="Post">
                   <a class="inline-flex items-center px-4 py-2 bg-blue-800 dark:bg-blue-200 border border-transparent rounded-md font-semibold text-xs text-white dark:text-blue-800 uppercase tracking-widest hover:bg-blue-700 dark:hover:bg-white focus:bg-blue-700 dark:focus:bg-white active:bg-blue-900 dark:active:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-blue-800 transition ease-in-out duration-150"
-                    href="{{ route('posts.edit', $nts->id) }}">Edit</a>
+                    href="{{ route('agenda.edit', $nts->id) }}">Edit</a>
                   @csrf
                   @method('DELETE')
 
@@ -57,5 +59,5 @@
       </div>
     </div>
   </div>
-  {!! $posts->links() !!}
+  {!! $agenda->links() !!}
 </x-app-layout>
